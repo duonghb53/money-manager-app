@@ -8,7 +8,6 @@
 ## Prerequisites
 
 [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
-[ni](https://github.com/antfu/ni) - 💡 Use the right package manager
 [rustup](https://rustup.rs/) - rustup is an installer for the systems programming language Rust
 
 ## Built with
@@ -19,17 +18,17 @@
 ## Install
 
 ```sh
-ni
+pnpm install
 ```
 
 ## Usage
 
 ```sh
-cargo tauri dev
+pnpm tauri dev
 ```
 
 ## Build
 
 ```sh
-cargo tauri build
+pnpm tauri build
 ```
